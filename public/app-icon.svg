@@ -1,4 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="100" fill="#6366f1"/>
-  <text x="256" y="320" text-anchor="middle" font-family="system-ui, sans-serif" font-size="260" font-weight="700" fill="white">P</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="background" x1="88" y1="48" x2="424" y2="464" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C73FF"/>
+      <stop offset="1" stop-color="#554DE8"/>
+    </linearGradient>
+    <linearGradient id="spark" x1="286" y1="164" x2="366" y2="252" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8178FF"/>
+      <stop offset="1" stop-color="#5A52E9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#background)"/>
+  <path d="M126 108H360C393.137 108 420 134.863 420 168V335C420 368.137 393.137 395 360 395H267L190 449V395H126C92.863 395 66 368.137 66 335V168C66 134.863 92.863 108 126 108Z" fill="#FFFFFF" fill-opacity="0.24"/>
+  <path d="M145 91H367C400.137 91 427 117.863 427 151V316C427 349.137 400.137 376 367 376H265L187 431V376H145C111.863 376 85 349.137 85 316V151C85 117.863 111.863 91 145 91Z" fill="#FFFFFF"/>
+
+  <path d="M326 158L337 191L370 202L337 213L326 246L315 213L282 202L315 191L326 158Z" fill="url(#spark)"/>
+  <path d="M182 174L190 197L213 205L190 213L182 236L174 213L151 205L174 197L182 174Z" fill="#AAA5FF"/>
+  <path d="M154 276H326" stroke="#6A62F2" stroke-width="22" stroke-linecap="round"/>
+  <path d="M154 320H273" stroke="#AAA5FF" stroke-width="22" stroke-linecap="round"/>
 </svg>
