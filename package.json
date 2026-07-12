@@ -1,0 +1,37 @@
+{
+  "name": "prompt-manager",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A local-first desktop prompt manager built with Tauri and Vue.",
+  "author": "Akko",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkkoForMe/prompt-manager.git"
+  },
+  "bugs": "https://github.com/AkkoForMe/prompt-manager/issues",
+  "homepage": "https://github.com/AkkoForMe/prompt-manager#readme",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/plugin-clipboard-manager": "^2.3.2",
+    "@tauri-apps/plugin-dialog": "^2.6.0",
+    "lucide-vue-next": "^0.577.0",
+    "vue": "^3.5.30"
+  },
+  "devDependencies": {
+    "@tauri-apps/api": "^2.10.1",
+    "@tauri-apps/cli": "^2.10.1",
+    "@types/node": "^24.12.0",
+    "@vitejs/plugin-vue": "^6.0.5",
+    "@vue/tsconfig": "^0.9.0",
+    "typescript": "~5.9.3",
+    "vite": "^8.0.1",
+    "vue-tsc": "^3.2.5"
+  }
+}
