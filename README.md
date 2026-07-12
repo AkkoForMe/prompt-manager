@@ -17,7 +17,7 @@
 
 ## 截图
 
-> 安全的示例数据截图将在首个 Release 发布前补充。
+![Prompt Manager 主界面](docs/images/app-overview.png)
 
 ## 安装
 
